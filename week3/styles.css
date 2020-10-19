@@ -1,0 +1,33 @@
+h4 {
+    color: darkgreen;
+    font-size: 25px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sub-header {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.other-likes {
+    text-transform: uppercase;
+}
+
+/* table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+} */
+
+a:hover {
+    color: red;
+    font-size: 18px;
+    text-decoration: crimson;
+    text-decoration: underline;
+}
+
+img {
+    float: left;
+    max-width: 799px;
+    padding: 10px;
+}
