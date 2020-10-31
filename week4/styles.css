@@ -12,6 +12,7 @@ html, body {
     height: 80px;
     background-color: rgb(139, 139, 139);
     top: 0;
+    z-index: +2;
 }
 
 #blog-container {
@@ -35,11 +36,13 @@ html, body {
     background-color: rgb(36, 36, 36);
     text-align: left;
     color: seashell;
+    z-index: +1;
 }
 
 h3 {
     text-align: left;
     margin: 5px;
+    z-index: +1;
 }
 
 img {
@@ -56,6 +59,7 @@ h5 {
     font-weight: bolder;
     color: black;
     font-size: 40px;
+    z-index: +1;
 }
 
 #footer {
@@ -85,9 +89,10 @@ a:hover {
 p {
     color: seashell;
     font-style: italic;
-    font-size: 16px;
+    font-size: 13px;
 }
 
 span {
     color: seashell;
+    font-size: 18px;
 }
