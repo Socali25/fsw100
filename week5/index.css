@@ -1,8 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
 .lightpink, .fushia, .aquamarine, .green, .orange {
     float: left;
-    height: 100px;
+    height: 75px;
     padding: 15px;
-    border: 4px solid black;
+    border: 4px solid white;
 }
 
 .lightpink {
@@ -10,3 +14,22 @@
     width: 100%;
 }
 
+.fushia {
+    background-color: #EE2E84;
+    width: 25%
+}
+
+.aquamarine {
+    background-color: #85CFD8;
+    width: 50%
+}
+
+.green {
+    background-color: #8DC63F;
+    width: 75%;
+}
+
+.orange {
+    background-color: #E76E34;
+    width: 25%;
+}
