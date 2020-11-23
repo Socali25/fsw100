@@ -33,3 +33,9 @@
     background-color: #E76E34;
     width: 25%;
 }
+
+@media only screen and (max-width:1000px) {
+    .lightpink, .fushia, .aquamarine, .green, .orange {
+        width: 100%;
+    }
+}
