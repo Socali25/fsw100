@@ -1,8 +1,17 @@
 
+* {
+    box-sizing: border-box;
+}
+
 html, body {
     margin: 0;
     padding: 0;
     background-color: #b3aeae;
+}
+
+#main {
+    width: auto;
+    height: auto;
 }
 
 #nav-bar {
@@ -18,8 +27,9 @@ html, body {
 #blog-container {
     position: relative;
     top: 100px;
-    left: 37.5px ;
-    width: 600px;
+    left: 37.5px;
+    right: 37.5px;
+    width: auto;
     height: 150px;
     background-color: rgb(92, 91, 91);
     font-size: 18px;
@@ -63,7 +73,7 @@ h5 {
 }
 
 #footer {
-    position: fixed;
+    position: relative;
     top: 700px;
     color: seashell;
 }
@@ -95,4 +105,11 @@ p {
 span {
     color: seashell;
     font-size: 18px;
+    margin: 3px;
+}
+
+h2 {
+    margin: 5px;
+    text-decoration: underline;
+    font-size: 25px;
 }
